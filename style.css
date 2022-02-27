@@ -1,0 +1,64 @@
+body {
+  margin: 70px auto;
+  padding: 0 20px 0 20px;
+  font-family: "Gill Sans MT", Gill Sans, Sans-serif;
+  width: 580px;
+  font-size: 24px;
+}
+
+header {
+  margin-top: 60px;
+}
+
+header a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+h2 {
+  margin-top: 52px;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 20px;
+  color: gray;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 48px;
+  height: auto;
+}
+
+.rose:hover {
+  color: mistyrose;
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    width: auto;
+    word-wrap: break-word;
+  }
+
+  img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+}
+
+img[ src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none;
+}
