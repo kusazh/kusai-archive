@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cl_style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>張哭仨行天</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="taketori.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+      var taketori = new Taketori()
+        .set({ fontFamily: "serif", height: "150px", lang: "zh-tw" })
+        .element("div.tategaki-s")
+        .toVertical();
+      var taketori = new Taketori()
+        .set({ fontFamily: "serif", height: "300px", lang: "zh-tw" })
+        .element("div.tategaki")
+        .toVertical();
+    </script>
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "wto6glo",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo" />
+    </div>
+    <div class="tategaki">
+      <p class="header">
+        張行天者，通稱哭仨，北京人也。業<a href="#se">軟體工程師</a>，自謂<a
+          href="#dev"
+          >獨立開發者</a
+        >，好<a href="#art">藝術及設計</a>也。
+      </p>
+      <p>其色<a href="https://rose-colo.red" class="rose">玫瑰</a>。</p>
+      <p>
+        會諸<a href="https://twitter.com/kusazh">啁啾會館</a>，<a
+          href="https://www.instagram.com/kusazh/"
+          >剎那圖鑑</a
+        >，或<a href="mailto:i@rose-colo.red">致電函</a>。
+      </p>
+    </div>
+    <div class="tategaki" id="se">
+      <h2>軟體工程師</h2>
+      <p>
+        哭仨業於<a href="https://www.douban.com/people/kusazh/">豆瓣</a
+        >，任產品工程師，開發後端以皮同。
+      </p>
+    </div>
+    <div class="tategaki" id="dev">
+      <h2>獨立開發者</h2>
+      <p>
+        哭仨嘗事蘋果開發，設計創新軟體，纂以迅語。一曰《粉丸》，隨機作詩器也；一曰《安可》，作樂以會友之平台也。
+      </p>
+      <img src="images/pinkpill.jpg" width="580" alt="Pink Pill" />
+      <img src="images/encore.jpg" width="580" alt="Pink Pill" />
+      <p></p>
+      <p>
+        <a href="https://github.com/kusazh/capsule">復刻</a
+        >《粉丸》以網頁，請試於<a href="https://capsule.pink">此</a>。
+      </p>
+    </div>
+    <div class="tategaki" id="art">
+      <h2>藝設生徒</h2>
+      <p>
+        哭仨多作新詩，好數字藝術，喜圖形設計。自印詩集數冊，形制不一。今作<a
+          href="https://github.com/kusazh/import-poetry"
+          >《詩引》</a
+        >，言詩以程式語也。
+      </p>
+      <script src="https://gist.github.com/kusazh/d402cd0ff38ab410e3fc92d2ae7b540f.js"></script>
+      <p></p>
+      <p>至於設計，嘗作徽予其學院，亦作以遺友。</p>
+      <img src="images/cueb.jpg" width="285" alt="CUEB" />
+      <img src="images/pomme1.jpg" width="285" alt="Pomme" />
+      <p></p>
+      <p>
+        另作白話文章小說於<a
+          href="https://mp.weixin.qq.com/s/_smzDufYLBfNoeyFcUiy6w"
+          >微信</a
+        >。其《出謎人》錄於<a href="https://www.gcores.com/articles/118001"
+          >機核</a
+        >。
+      </p>
+    </div>
+    <div class="tategaki-s">
+      <footer>
+        <p>本頁引以<a href="http://taketori.org/js.html">竹取爪哇手稿</a>。</p>
+        <p>本頁亦有<a href="..">英文版</a>。</p>
+      </footer>
+    </div>
+  </body>
+</html>
