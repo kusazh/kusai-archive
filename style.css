@@ -51,7 +51,7 @@ footer {
     word-wrap: break-word;
   }
 
-  img {
+  .main img {
     max-width: 100%;
     width: auto;
     height: auto;
