@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
   <head>
     <link rel="stylesheet" type="text/css" href="cl_style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tategaki@1.1.9/assets/tategaki.css"
+    />
     <title>張哭仨行天</title>
     <meta name="viewport" content="width=device-width" />
     <meta charset="UTF-8" />
-    <script type="text/javascript" src="taketori.js" charset="UTF-8"></script>
-    <script type="text/javascript">
-      var taketori = new Taketori()
-        .set({ fontFamily: "serif", height: "150px", lang: "zh-tw" })
-        .element("div.tategaki-s")
-        .toVertical();
-      var taketori = new Taketori()
-        .set({ fontFamily: "serif", height: "300px", lang: "zh-tw" })
-        .element("div.tategaki")
-        .toVertical();
-    </script>
     <script>
       (function (d) {
         var config = {
@@ -91,8 +82,8 @@
       <p>
         哭仨嘗事蘋果開發，設計創新軟體，纂以迅語。一曰《粉丸》，隨機作詩器也；一曰《安可》，作樂以會友之平台也。
       </p>
-      <img src="images/pinkpill.jpg" width="580" alt="Pink Pill" />
-      <img src="images/encore.jpg" width="580" alt="Pink Pill" />
+      <img src="images/pinkpill.jpg" alt="Pink Pill" />
+      <img src="images/encore.jpg" alt="Encore" />
       <p></p>
       <p>
         <a href="https://github.com/kusazh/capsule">複刻</a
@@ -114,19 +105,21 @@
       <img src="images/pomme.png" width="285" alt="Pomme" />
       <p></p>
       <p>
-        另作白話文章小說於<a
-          href="https://mp.weixin.qq.com/s/_smzDufYLBfNoeyFcUiy6w"
-          >微信</a
-        >。其《出謎人》錄於<a href="https://www.gcores.com/articles/118001"
+        <a href="https://kusai.typlog.io">臭作白話文章小說</a
+        >，其《出謎人》錄於<a href="https://www.gcores.com/articles/118001"
           >機核</a
         >。
       </p>
     </div>
-    <div class="tategaki-s">
+    <div class="tategaki">
       <footer>
-        <p>本頁引以<a href="http://taketori.org/js.html">竹取爪哇手稿</a>。</p>
+        <p>
+          本頁引以<a href="https://github.com/Denkiame/Tategaki-Core">縱書核</a
+          >。
+        </p>
         <p>本頁亦有<a href="..">英文版</a>。</p>
       </footer>
     </div>
+    <script src="https://unpkg.com/tategaki@1.1.9/dist/tategaki.min.js"></script>
   </body>
 </html>
