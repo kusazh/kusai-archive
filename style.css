@@ -45,6 +45,10 @@ footer {
   color: mistyrose;
 }
 
+.kusai:hover {
+  color: darkgoldenrod;
+}
+
 @media screen and (max-width: 580px) {
   body {
     width: auto;
