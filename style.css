@@ -61,3 +61,11 @@ footer {
     height: auto;
   }
 }
+
+.gist-meta {
+  font-family: "Gill Sans MT", Gill Sans, Sans-serif !important;
+}
+
+.gist-data {
+  padding: 100px;
+}
