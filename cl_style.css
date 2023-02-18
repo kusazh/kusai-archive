@@ -33,9 +33,9 @@ footer {
 }
 
 .tategaki {
-  height: 300px;
-  width: 480px;
-  padding: 27px;
+  max-height: 300px;
+  width: 450px;
+  padding: 30px;
   overflow: auto;
 }
 
