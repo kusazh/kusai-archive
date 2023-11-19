@@ -49,6 +49,12 @@ footer {
   color: darkgoldenrod;
 }
 
+.main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 580px) {
   body {
     width: auto;
