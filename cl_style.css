@@ -1,47 +1,65 @@
 body {
-  margin: 80px auto;
-  padding: 0 20px 0 20px;
-  width: 580px;
-  font-family: source-han-serif-tc, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.header a {
-  text-decoration: underline;
-  text-decoration-style: dashed;
+  width: 32rem;
+  margin: 5rem auto;
+  padding: 0 1rem 0 1rem;
+  font: 1.5rem "Hiragino Mincho Pro", serif;
+  letter-spacing: 0.2rem;
 }
 
 a {
   color: black;
 }
 
+.dash a {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
 footer {
-  font-size: 20px;
+  font-size: 80%;
   color: gray;
 }
 
-.logo {
+header {
   text-align: center;
-  margin-bottom: 60px;
 }
 
-.logo img {
-  width: 48px;
+header img {
+  width: 3rem;
   height: auto;
 }
 
-.tategaki {
-  max-height: 300px;
-  width: 450px;
-  padding: 30px;
+article {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-right: 0;
+}
+
+section,
+footer {
+  width: 100%;
+}
+
+section {
+  height: min(20.4rem, 80vh);
+  padding: 3rem 0 3rem 0;
   overflow: auto;
 }
 
-.tategaki img {
+section img {
+  height: min(20.4rem, 80vh);
   width: auto;
-  max-height: 300px;
+}
+
+footer {
+  height: 10rem;
+  padding-top: 3rem;
+}
+
+.white {
+  margin-right: 3.5rem;
 }
 
 .rose:hover {
@@ -52,12 +70,12 @@ footer {
   color: darkgoldenrod;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 40rem) {
   body {
     width: auto;
   }
 
-  .tategaki {
-    width: 90%;
+  h2 {
+    margin-right: 1.5rem;
   }
 }

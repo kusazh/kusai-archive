@@ -1,88 +1,48 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
-  <head>
-    <link rel="stylesheet" type="text/css" href="cl_style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/tategaki@1.1.9/assets/tategaki.css"
-    />
-    <title>張苦洒行天</title>
-    <meta name="viewport" content="width=device-width" />
-    <meta charset="UTF-8" />
-    <script>
-      (function (d) {
-        var config = {
-            kitId: "wto6glo",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != "complete" && a != "loaded")) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
-  </head>
 
-  <body>
-    <div class="logo">
-      <img src="images/logo.png" alt="Logo" />
-    </div>
-    <div class="tategaki">
-      <p class="header">
-        張苦洒行天者，北京人也。業<a href="#se">軟體工程師</a>，自謂<a
-          href="#dev"
-          >獨立開發者</a
-        >，好<a href="#art">藝術及設計</a>也。
+<head>
+  <link rel="stylesheet" type="text/css" href="cl_style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="stylesheet" href="https://unpkg.com/tategaki@1.1.9/assets/tategaki.css" />
+  <title>張苦洒行天</title>
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <header>
+    <img src="../images/logo.svg" alt="Logo" />
+  </header>
+  <article>
+    <section class="tategaki">
+      <p class="white dash">
+        張苦洒行天者，北京人也。業<a href="#se">軟體工程師</a>，自謂<a href="#dev">獨立開發者</a>，好<a href="#art">藝術及設計</a>也。
       </p>
       <p>
-        作白話文，惟<a href="https://kusai.bearblog.dev" class="kusai">苦洒矣</a
-        >。
+        作白話文，惟<a href="https://kusai.bearblog.dev" class="kusai">苦洒矣</a>。
       </p>
       <p>會諸<a href="../kusazh">此後設詩篇</a>。</p>
-    </div>
-    <div class="tategaki" id="se">
+    </section>
+    <section class="tategaki" id="se">
       <h2>軟體工程師</h2>
       <p>
-        苦洒業於<a href="https://www.douban.com/people/kusazh/">豆瓣</a
-        >，任後端工程師，作業主以蟒語。
+        苦洒業於<a href="https://www.douban.com/people/kusazh/">豆瓣</a>，任後端工程師，作業主以蟒語。
       </p>
-    </div>
-    <div class="tategaki" id="dev">
+    </section>
+    <section class="tategaki" id="dev">
       <h2>獨立開發者</h2>
       <p>苦洒事蘋果開發，設計創新軟體。其有《粉丸》，隨機作詩器也。</p>
       <img src="images/pill.png" alt="Pill" />
       <p></p>
       <p>複刻《粉丸》以<a href="../pill">網頁</a>，開其源也。</p>
-    </div>
-    <div class="tategaki" id="art">
+    </section>
+    <section class="tategaki" id="art">
       <h2>藝設生徒</h2>
       <p>
-        苦洒多作新詩，好數字藝術，喜圖形設計。自印詩集數冊，形制不一。今作<a
-          href="../so-so"
-          >《草々》</a
-        >，可賞玩其詩於任天堂遊郎機也。
+        苦洒多作新詩，好數字藝術，喜圖形設計。自印詩集數冊，形制不一。今作<a href="../so-so">《草々》</a>，可賞玩其詩於任天堂遊郎機也。
       </p>
       <img src="images/so-so.png" width="580" alt="So-so" />
       <p></p>
@@ -90,21 +50,18 @@
       <img src="images/logos.png" alt="Logos" />
       <p></p>
       <p>
-        作白話文，惟<a href="https://kusai.bearblog.dev" class="kusai">苦洒矣</a
-        >，其《出謎人》錄於<a href="https://www.gcores.com/articles/118001"
-          >機核</a
-        >。
+        作白話文，惟<a href="https://kusai.bearblog.dev" class="kusai">苦洒矣</a>，其《出謎人》收於<a
+          href="https://www.gcores.com/articles/118001">機核</a>。
       </p>
-    </div>
-    <div class="tategaki">
-      <footer>
-        <p>
-          本頁引以<a href="https://github.com/Denkiame/Tategaki-Core">縱書核</a
-          >。
-        </p>
-        <p>本頁亦有<a href=".">英文版</a>。</p>
-      </footer>
-    </div>
-    <script src="https://unpkg.com/tategaki@1.1.9/dist/tategaki.min.js"></script>
-  </body>
+    </section>
+  </article>
+  <footer class="tategaki">
+    <p class="white">
+      本頁引以<a href="https://github.com/Denkiame/Tategaki-Core">縱書核</a>。
+    </p>
+    <p>本頁亦有<a href=".">英文版</a>。</p>
+  </footer>
+  <script src="https://unpkg.com/tategaki@1.1.9/dist/tategaki.min.js"></script>
+</body>
+
 </html>
