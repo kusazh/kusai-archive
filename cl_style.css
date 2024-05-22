@@ -2,7 +2,7 @@ body {
   width: 32rem;
   margin: 5rem auto;
   padding: 0 1rem 0 1rem;
-  font: 1.5rem "Hiragino Mincho Pro", serif;
+  font: 1.5rem "Hiragino Mincho Pro", "新宋体", serif;
   letter-spacing: 0.2rem;
 }
 
@@ -54,7 +54,7 @@ section img {
 }
 
 footer {
-  height: 10rem;
+  min-height: 10rem;
   padding-top: 3rem;
 }
 
